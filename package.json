@@ -1,0 +1,41 @@
+{
+  "name": "tech-core-skill",
+  "version": "1.1.0",
+  "description": "OpenCode skill: reversing, cracking and tools building playbook (incl. Ghidra MCP)",
+  "keywords": [
+    "opencode",
+    "opencode-skill",
+    "reverse-engineering",
+    "cracking",
+    "tools-builder",
+    "il2cpp",
+    "android",
+    "ndk",
+    "ghidra",
+    "mcp",
+    "ghidrassistmcp"
+  ],
+  "license": "Apache-2.0",
+  "type": "module",
+  "bin": {
+    "tech-core-skill": "bin/install.mjs"
+  },
+  "exports": {
+    ".": "./SKILL.md",
+    "./references/*": "./references/*",
+    "./eval": "./eval/eval_set.json",
+    "./scripts/*": "./scripts/*"
+  },
+  "files": [
+    "bin/",
+    "SKILL.md",
+    "references/",
+    "scripts/",
+    "eval/",
+    "README.md",
+    "LICENSE"
+  ],
+  "engines": {
+    "node": ">=18"
+  }
+}

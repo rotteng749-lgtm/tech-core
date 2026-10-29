@@ -1,0 +1,90 @@
+[
+  {
+    "query": "reverse engineer this stripped libil2cpp.so, I need the offset of a field",
+    "should_trigger": true
+  },
+  {
+    "query": "the .so is fully stripped, how do I find ShowEntity from just a string",
+    "should_trigger": true
+  },
+  {
+    "query": "global-metadata.dat is missing, how do I recover class layouts",
+    "should_trigger": true
+  },
+  {
+    "query": "Ghidra or IDA, which one for finding xrefs to a rodata string",
+    "should_trigger": true
+  },
+  {
+    "query": "my offsets worked yesterday and broke after the game updated",
+    "should_trigger": true
+  },
+  {
+    "query": "the value writes fine but nothing happens in game",
+    "should_trigger": true
+  },
+  {
+    "query": "build an external ESP overlay in C++ that reads another app's memory",
+    "should_trigger": true
+  },
+  {
+    "query": "inject touch events into an Android game through uinput",
+    "should_trigger": true
+  },
+  {
+    "query": "the offset reads 0xFFFFFFFF, is my read failing",
+    "should_trigger": true
+  },
+  {
+    "query": "find which class holds the player list in this game",
+    "should_trigger": true
+  },
+  {
+    "query": "I want to talk like a chaotic cute shark while we code",
+    "should_trigger": false
+  },
+  {
+    "query": "fix the flake8 config in my Django project",
+    "should_trigger": false
+  },
+  {
+    "query": "what's a good pasta recipe for spaghetti carbonara",
+    "should_trigger": false
+  },
+  {
+    "query": "explain how TCP keepalive works",
+    "should_trigger": false
+  },
+  {
+    "query": "use the ghidra MCP tools to decompile this function and list its xrefs",
+    "should_trigger": true
+  },
+  {
+    "query": "my GhidrAssistMCP server on port 8080 isn't connecting to opencode",
+    "should_trigger": true
+  },
+  {
+    "query": "decompile liblogic.so with Ghidra MCP and find who calls the license check",
+    "should_trigger": true
+  },
+  {
+    "query": "how do I patch a cmp instruction through the Ghidra MCP patch_bytes tool",
+    "should_trigger": true
+  },
+  {
+    "query": "the ghidra mcp get_function_hash returns bytes_hashed 1 for every function",
+    "should_trigger": true
+  },
+  {
+    "query": "convert a Ghidra address to a runtime address for /proc/pid/mem",
+    "should_trigger": true
+  },
+  {
+    "query": "set up a MCP server for my Postgres database in opencode",
+    "should_trigger": false
+  },
+  {
+    "query": "how do I install a Ghidra extension from the GUI",
+    "should_trigger": false
+  }
+]
