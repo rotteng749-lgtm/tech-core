@@ -1,0 +1,3 @@
+interface:
+  display_name: "Hyperbrowser MCP"
+  short_description: "Cloud headless browser & SPA crawler"

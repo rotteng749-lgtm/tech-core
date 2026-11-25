@@ -1,0 +1,3 @@
+interface:
+  display_name: "AI, LLM & Agent Security Audit (OWASP LLM Top 10)"
+  short_description: "Prompt injection defenses, tool-call sandboxing, RAG access control & output encoding"

@@ -1,0 +1,3 @@
+interface:
+  display_name: "Forensic Integrity & Log Tamper Detection"
+  short_description: "Immutable audit logging, USN Journal/EventLog integrity & artifact preservation"

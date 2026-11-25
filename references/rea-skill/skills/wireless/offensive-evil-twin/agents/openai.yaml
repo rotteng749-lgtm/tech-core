@@ -1,0 +1,3 @@
+interface:
+  display_name: "Rogue AP & WIDS Detection Audit"
+  short_description: "Wireless Intrusion Detection System (WIDS) testing & 802.1X pinning"

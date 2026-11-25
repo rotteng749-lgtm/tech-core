@@ -1,0 +1,3 @@
+interface:
+  display_name: "Purple Team & Adversary Emulation"
+  short_description: "MITRE ATT&CK telemetry validation, detection gap analysis & SOC verification"

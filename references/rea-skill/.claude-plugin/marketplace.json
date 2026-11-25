@@ -1,0 +1,26 @@
+{
+  "name": "smartworldarafath",
+  "owner": {
+    "name": "smartworldarafath",
+    "url": "https://github.com/smartworldarafath"
+  },
+  "description": "Universal Reverse Engineering & Lost Source Code Recovery Skill Suite powered by REA MCP.",
+  "plugins": [
+    {
+      "name": "rea-skills",
+      "source": "./",
+      "description": "Unified 169-Skill Reverse Engineering, Payload Library, Lost Source Code Recovery, Security Auditing & Multi-Agent Intelligence Suite across 34 categories.",
+      "category": "engineering",
+      "keywords": [
+        "reverse-engineering",
+        "decompilation",
+        "code-recovery",
+        "binary-analysis",
+        "security-audit",
+        "mcp",
+        "rea"
+      ]
+    }
+  ],
+  "version": "2.1.0"
+}

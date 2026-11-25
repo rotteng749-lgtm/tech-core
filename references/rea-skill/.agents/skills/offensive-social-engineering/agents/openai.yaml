@@ -1,0 +1,3 @@
+interface:
+  display_name: "Identity Verification & Helpdesk Security Audit"
+  short_description: "IT helpdesk MFA reset verification workflows, out-of-band callbacks & physical access controls"

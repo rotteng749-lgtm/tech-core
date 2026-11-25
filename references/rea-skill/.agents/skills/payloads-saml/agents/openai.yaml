@@ -1,0 +1,3 @@
+interface:
+  display_name: "SAML Injection Payloads"
+  short_description: "SAML injection payloads for SSO bypass, XML signature wrapping, and identity manipulation."

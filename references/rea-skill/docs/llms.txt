@@ -1,0 +1,57 @@
+# REA_Skill (Reverse Engineer Anything + claude-red + PayloadsAllTheThings + Understand-Anything Unified 541-Skill Suite)
+
+> REA_Skill: 541 agent skills across 42 categories + 500 prompts for Reverse Engineer Anything (REA), Codebase Understanding & Interactive Knowledge Graphs, PayloadsAllTheThings, claude-red, GTFOBins, HackTricks, and Strix autonomous security auditing. Recover lost source code, decompile binaries, and audit web, mobile, cloud, wireless, API, and native software with Claude Code, Codex, Cursor, and Antigravity.
+
+- Website: https://smartworldarafath.github.io/REA_Skill/
+- Repository: https://github.com/smartworldarafath/REA_Skill
+- Manifest: https://github.com/smartworldarafath/REA_Skill/blob/main/claude-skills.json
+- Mindmap: https://github.com/smartworldarafath/REA_Skill/blob/main/MINDMAP.md
+- Install (Claude Code): /plugin marketplace add smartworldarafath/REA_Skill
+- Install (any agent): npx skills add smartworldarafath/REA_Skill
+- Install (script): ./install.sh --target ~/.claude/skills
+- License: MIT
+
+## Categories (42 Categories · 541 Skills)
+- `rea-core` (12 skills): Full A–Z lost source code recovery (Zero-Skeleton Law), universal router (`rea-universal-orchestrator`), binary disassembly, APK/IPA decompilation, web bundles, protocols, databases, game assets, crash triage, firmware, and interactive grilling (`rea-grill-me`).
+- `anti-slop` (6 skills): Anti-slop filters stopping generic AI interfaces, robotic comments, hyperbole copy, mobile layout issues, and human accessibility flaws.
+- `design-taste` (3 skills): Impeccable design vocabulary (24 steering commands), TasteSkill v2 art direction (247 gallery-analyzed styles), and UI Craft (10-item designer acceptance bar).
+- `writing-quality` (1 skill): Anti-AI-slop writing constraints eliminating 50+ robotic words, formulaic phrases, and rule-of-three sentence structures.
+- `agent-memory` (1 skill): Claude-Mem cross-session memory compression system distilling conversation transcripts into durable snapshots.
+- `browser-automation` (1 skill): Lightpanda headless browser built in Zig — 16x lighter, 9x faster than Chromium with full CDP support.
+- `superpowers` (15 skills): Complete agent reasoning and execution discipline from obra/superpowers including brainstorming, executing-plans, writing-plans, systematic-debugging, test-driven-development, subagent-driven-development, and verification-before-completion.
+- `mobile` (updated with `apktool`): Full Android APK reverse engineering, Smali bytecode disassembly, binary resource decoding, and repackaging pipeline.
+- `ecc-workflow` (48 skills): Full Everything Claude Code (ECC) engineering suite spanning TDD rigor, code standards, CI/CD audits, and multi-agent coordination.
+- `codebase-understanding` (9 skills): AST-based interactive knowledge graphs (`understand`), React/xyflow dashboard with Louvain community clustering (`understand-dashboard`), component Q&A (`understand-chat`), git diff impact analysis (`understand-diff`), business domain mapping (`understand-domain`), component explainers (`understand-explain`), Figma design graphs (`understand-figma`), Karpathy LLM wiki parsing (`understand-knowledge`), and developer onboarding walkthroughs (`understand-onboard`).
+- `agent-ecosystem` (9 skills): Owner authorization, 10-layer website audit, ECC TDD rigor, Agent Reach zero-fee internet search, SurfSense local RAG, Microsoft Playwright MCP, Bright Data MCP, and Hyperbrowser MCP.
+- `payloads-injection` (18 skills): SQLi, XSS, XXE, SSRF, SSTI, Command Injection, LDAP, NoSQL, GraphQL, XPath, XSLT, LaTeX, SAML, SSI, HPP, CSV, Prototype Pollution, Prompt Injection.
+- `payloads-web` (29 skills): CORS, CRLF, CSRF, Open Redirect, LFI/RFI, Path Traversal, Deserialization, File Upload, Request Smuggling, Cache Deception, OAuth, JWT, IDOR, Race Conditions, WebSocket, CSS Injection, Clickjacking, Type Juggling, Mass Assignment, Dependency Confusion, Account Takeover, Brute Force, Business Logic, API Key Leaks, CVE Exploits, Reverse Proxy, vHosts, Hidden Params, ORM Leak.
+- `payloads-research` (15 skills): DOM Clobbering, Encoding, ReDoS, DNS Rebinding, Tabnabbing, XS-Leak, Headless Browser, CSPT, GWT, Ext Variable, Java RMI, Insecure Randomness, Mgmt Interface, SCM Exposure, Zip Slip.
+- `payloads-resources` (1 skill): Pentest methodology cheatsheets (AD, reverse shells, network pivoting, Linux/Windows privesc, cloud pentest, Kubernetes, Docker).
+- `web` (16 skills): OWASP Top 10 auditing, SQLi, XSS, SSRF, SSTI, XXE, IDOR, RCE, deserialization, race conditions, request smuggling, GraphQL, WAF bypass, business logic.
+- `wireless` (14 skills): 802.11, WPA2/3, 802.1X, WPS, rogue AP detection, KRACK/FragAttacks, PMF, BLE, Classic Bluetooth, Zigbee/Matter, Z-Wave, LoRaWAN.
+- `infrastructure` (7 skills): External attack surface, Purple Team ATT&CK, EDR telemetry health, PIC/shellcode analysis, Windows mitigations (ACG/CFG/CET/HVCI), and UAC boundaries.
+- `exploit-dev` (6 skills): Root-cause memory corruption, crash triage, compiler mitigations (RELRO/PIE/CFI), stack/format auditing, TOCTOU races.
+- `fuzzing` (4 skills): Coverage-guided fuzzing (AFL++, libFuzzer, Honggfuzz), harness engineering, CodeQL taint tracking, CWE taxonomy.
+- `post-exploitation` (3 skills): Lateral movement, persistence baselining, DLP egress controls.
+- `active-directory` (2 skills): Kerberos hardening, ADCS ESC1-15, BloodHound ACL paths, SMB/LDAP signing.
+- `auth` (2 skills): JWT security (`alg:none`, key confusion), OAuth 2.0 / OIDC verification.
+- `recon` (2 skills): EASM attack surface, Certificate Transparency, ASN/DNS mapping.
+- `api` (2 skills): OWASP API Top 10, schema validation, rate limiting, idempotency.
+- `container` (2 skills): Container runtime isolation, Kubernetes RBAC, Pod Security Standards.
+- `cicd` (2 skills): Workflow hardening (`pull_request_target`), OIDC workload federation.
+- `crypto` (2 skills): Applied cryptography (AES-GCM, CSPRNG, Argon2id), TLS 1.3/PKI.
+- `privesc` (2 skills): Linux (SUID, sudoers, systemd) and Windows privilege escalation boundaries.
+- `forensics` (2 skills): Immutable audit logging, anti-tamper forensics, network threat hunting.
+- `supply-chain` (2 skills): SLSA build provenance, Cosign signing, CycloneDX/SPDX SBOMs, dependency confusion.
+- `social-engineering` (2 skills): SPF/DKIM/DMARC `p=reject`, FIDO2/WebAuthn passkeys.
+- `utility` (2 skills): 15-minute security triage checklist, CVSS v3.1/v4.0 reporting.
+- `cloud` (1 skill): AWS/Azure/GCP IAM least-privilege, IMDSv2, storage bucket ACLs.
+- `mobile` (1 skill): Android & iOS OWASP MASVS assessment, Keystore/Keychain, TLS pinning.
+- `iot` (1 skill): Hardware debug lockdown (UART/JTAG), SPI flash, Secure Boot, signed OTA.
+- `network` (1 skill): Switch hardening (DAI, DHCP Snooping, 802.1X, VLANs).
+- `ai` (1 skill): OWASP LLM Top 10, prompt injection defenses, RAG ACLs, tool-call sandboxing.
+- `resources` (2 skills): `awesome-hacking-resources` & `awesome-hacking` curated tools matrix.
+- `pentest-tricks` (1 skill): `hacktricks` multi-surface pentest reference.
+- `bug-bounty` (1 skill): `claude-bughunter` 82-skill bundle with 681 disclosed report patterns.
+- `ai-pentest` (1 skill): `strix` autonomous AI penetration testing agent.
+- `privilege-escalation` (1 skill): `gtfobins` Unix binary bypass and hardening catalog.

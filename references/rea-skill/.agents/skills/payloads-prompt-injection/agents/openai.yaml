@@ -1,0 +1,3 @@
+interface:
+  display_name: "Prompt Injection Payloads"
+  short_description: "LLM prompt injection payloads for goal hijacking, data exfiltration, and jailbreaking."

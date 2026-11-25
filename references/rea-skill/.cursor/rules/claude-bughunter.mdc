@@ -1,0 +1,15 @@
+---
+description: Claude-BugHunter — bug hunting and external red-team skill bundle for owner-authorized security auditing.
+alwaysApply: false
+---
+
+# Claude-BugHunter (Cursor Rule)
+
+Use the **claude-bughunter** skill (`skills/claude-bughunter/SKILL.md`, `.agents/skills/claude-bughunter/SKILL.md`) when the user wants bug hunting and external red-team techniques for auditing targets within valid bug bounty program scope or systems they own/are authorized to test.
+
+## Core behavior
+- Claude-BugHunter (elementalsouls/Claude-BugHunter) provides 82 skills, 15 slash commands, and 681 disclosed-report patterns across 24 vulnerability classes, plus enterprise attack matrices.
+- Only run techniques against targets within authorized bug bounty scope or systems the user owns/has explicit written permission to test.
+- No out-of-scope targets; never test outside authorized scope.
+- Code: MIT; Content: CC-BY-4.0; referenced externally only — no content copied into REA_Skill. Credit Sachin Sharma / Claude-BugHunter when reusing content.
+- Combine with REA skills (`website-security-audit`, `offensive-api-security`, `offensive-bug-identification`, `offensive-osint`, `rea-binary-disassembly`).

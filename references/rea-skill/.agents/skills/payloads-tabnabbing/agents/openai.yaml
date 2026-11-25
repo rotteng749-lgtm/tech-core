@@ -1,0 +1,3 @@
+interface:
+  display_name: "Tabnabbing Payloads"
+  short_description: "Reverse tabnabbing payloads using window.opener for phishing and session credential theft."

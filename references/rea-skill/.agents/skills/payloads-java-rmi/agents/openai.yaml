@@ -1,0 +1,3 @@
+interface:
+  display_name: "Java RMI Attack Payloads"
+  short_description: "Java RMI exploitation payloads for deserialization, registry enumeration, and RCE."

@@ -1,0 +1,3 @@
+interface:
+  display_name: "Remote Code Execution (RCE) Audit"
+  short_description: "Command injection sink analysis, eval/exec auditing & sandboxing"

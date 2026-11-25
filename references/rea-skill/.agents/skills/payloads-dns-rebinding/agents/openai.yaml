@@ -1,0 +1,3 @@
+interface:
+  display_name: "DNS Rebinding Payloads"
+  short_description: "DNS rebinding attack payloads for bypassing SOP and accessing internal services via browsers."

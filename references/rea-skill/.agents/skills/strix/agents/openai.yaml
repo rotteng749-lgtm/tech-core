@@ -1,0 +1,3 @@
+interface:
+  display_name: "Strix AI Penetration Testing"
+  short_description: "Autonomous AI pentest agent to find and fix vulnerabilities in your own apps"

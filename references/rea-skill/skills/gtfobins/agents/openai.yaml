@@ -1,0 +1,3 @@
+interface:
+  display_name: "GTFOBins Unix Binary Bypass Reference"
+  short_description: "Curated GTFOBins reference for privilege escalation and post-exploitation on owner-authorized systems"

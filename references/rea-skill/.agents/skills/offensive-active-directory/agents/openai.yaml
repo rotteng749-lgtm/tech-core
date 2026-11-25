@@ -1,0 +1,3 @@
+interface:
+  display_name: "Active Directory Security Audit"
+  short_description: "Kerberos hardening, ACL/GPO review, ADCS ESC1-15 & tiering assessment"

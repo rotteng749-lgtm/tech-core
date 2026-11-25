@@ -1,0 +1,3 @@
+interface:
+  display_name: "Source Code Management Exposure Payloads"
+  short_description: "SCM exposure payloads for .git, .svn, and .hg directory disclosure and source code extraction."

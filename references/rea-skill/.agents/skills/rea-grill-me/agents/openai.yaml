@@ -1,0 +1,5 @@
+interface:
+  display_name: "REA Grill Me"
+  short_description: "Relentless interview to scope reverse engineering & recovery plans"
+policy:
+  allow_implicit_invocation: false

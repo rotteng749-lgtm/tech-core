@@ -1,0 +1,3 @@
+interface:
+  display_name: "Type Juggling Payloads"
+  short_description: "PHP and JavaScript type juggling payloads for authentication and comparison bypass."

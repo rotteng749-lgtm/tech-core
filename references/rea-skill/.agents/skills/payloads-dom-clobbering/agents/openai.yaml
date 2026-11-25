@@ -1,0 +1,3 @@
+interface:
+  display_name: "DOM Clobbering Payloads"
+  short_description: "DOM clobbering attack payloads for overriding globals and enabling XSS via named elements."

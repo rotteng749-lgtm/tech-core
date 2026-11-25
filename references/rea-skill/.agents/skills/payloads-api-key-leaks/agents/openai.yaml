@@ -1,0 +1,3 @@
+interface:
+  display_name: "API Key Leak Detection Payloads"
+  short_description: "API key leak discovery patterns, dorks, and exploitation techniques for exposed credentials."

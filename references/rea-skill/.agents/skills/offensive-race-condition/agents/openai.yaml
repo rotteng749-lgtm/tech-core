@@ -1,0 +1,3 @@
+interface:
+  display_name: "Race Conditions & Concurrency Audit"
+  short_description: "TOCTOU, single-packet multi-request testing & atomic DB transactions"

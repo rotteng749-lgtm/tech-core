@@ -1,0 +1,3 @@
+interface:
+  display_name: "Insecure Randomness Payloads"
+  short_description: "Insecure randomness exploitation payloads for PRNG prediction and token forge attacks."

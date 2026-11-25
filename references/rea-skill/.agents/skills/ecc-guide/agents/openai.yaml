@@ -1,0 +1,2 @@
+display_name: "Ecc Guide"
+short_description: "Answer questions about ECC by reading the live repo surface — agents, skills, commands, hooks, rules, install profiles, and docs — instead of memory. Use when the user asks what ECC includes, how to install or reset it, which skill or command fits a task, or how project onboarding works."

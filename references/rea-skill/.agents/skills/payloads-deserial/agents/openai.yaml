@@ -1,0 +1,3 @@
+interface:
+  display_name: "Insecure Deserialization Payloads"
+  short_description: "Deserialization attack payloads for Java, PHP, Python, Ruby, and .NET gadget chains."

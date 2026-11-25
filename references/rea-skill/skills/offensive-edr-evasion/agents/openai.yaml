@@ -1,0 +1,3 @@
+interface:
+  display_name: "EDR Telemetry & Sensor Resilience Audit"
+  short_description: "ETW/AMSI/kernel callback telemetry verification & tamper protection testing"

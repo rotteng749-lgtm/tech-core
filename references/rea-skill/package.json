@@ -1,0 +1,38 @@
+{
+  "name": "rea-skills",
+  "version": "2.4.0",
+  "description": "Universal Reverse Engineering, Lost Source Code Recovery, Binary Disassembly, Web/Mobile Security Auditing & Asset Reconstruction skill suite powered by REA MCP.",
+  "type": "module",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/smartworldarafath/REA_Skill"
+  },
+  "author": {
+    "name": "smartworldarafath",
+    "url": "https://github.com/smartworldarafath"
+  },
+  "license": "MIT",
+  "scripts": {
+    "test": "node scripts/check-skills.mjs",
+    "check-skills": "node scripts/check-skills.mjs",
+    "sync-skills": "node scripts/sync-skills-dir.mjs",
+    "sync-version": "node scripts/sync-plugin-version.mjs",
+    "check-plugin-version": "node scripts/sync-plugin-version.mjs --check"
+  },
+  "keywords": [
+    "reverse-engineer-anything",
+    "rea-mcp",
+    "agent-skills",
+    "claude-code-plugin",
+    "reverse-engineering",
+    "decompilation",
+    "code-recovery",
+    "binary-analysis",
+    "security-audit",
+    "mcp",
+    "rea",
+    "mobile-security",
+    "web-security",
+    "grilling"
+  ]
+}

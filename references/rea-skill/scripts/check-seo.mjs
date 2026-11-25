@@ -1,0 +1,10 @@
+import fs from 'node:fs';
+const html = fs.readFileSync('docs/index.html', 'utf8');
+const m = html.match(/<script type="application\/ld\+json">([\s\S]*?)<\/script>/);
+const data = JSON.parse(m[1]);
+console.log('JSON-LD ok, types:', data['@graph'].map(x => x['@type']).join(', '));
+const title = html.match(/<title>([\s\S]*?)<\/title>/)[1];
+const desc = html.match(/name="description"\s+content="([^"]*)"/)[1];
+console.log('title len', title.length, '| desc len', desc.length);
+console.log('h1 count', (html.match(/<h1/g) || []).length, '| faq', html.includes('id="faq"'));
+JSON.parse(fs.readFileSync('package.json', 'utf8'));

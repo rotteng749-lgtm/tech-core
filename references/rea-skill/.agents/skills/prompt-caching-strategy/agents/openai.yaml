@@ -1,0 +1,2 @@
+display_name: "Prompt Caching Strategy"
+short_description: "Optimize LLM prompt caching hit rate to reduce API costs and improve latency."

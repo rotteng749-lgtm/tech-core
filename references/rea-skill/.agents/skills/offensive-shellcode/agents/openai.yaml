@@ -1,0 +1,3 @@
+interface:
+  display_name: "Position-Independent Code & Memory Analysis"
+  short_description: "Binary loader mechanics, PIC disassembly, ACG/CFG memory protection audit"

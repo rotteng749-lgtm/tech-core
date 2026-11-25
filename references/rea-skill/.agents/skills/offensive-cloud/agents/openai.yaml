@@ -1,0 +1,3 @@
+interface:
+  display_name: "Multi-Cloud Security Audit (AWS/Azure/GCP)"
+  short_description: "IAM least-privilege review, IMDSv2, storage bucket ACLs & cross-account trust"

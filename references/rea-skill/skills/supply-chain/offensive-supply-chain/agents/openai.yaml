@@ -1,0 +1,3 @@
+interface:
+  display_name: "Software Supply Chain & SBOM Audit"
+  short_description: "SLSA build provenance, Sigstore/Cosign artifact signing, lockfiles & SBOM review"

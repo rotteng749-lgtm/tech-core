@@ -1,0 +1,3 @@
+interface:
+  display_name: "Filesystem & Kernel TOCTOU Race Audit"
+  short_description: "Symlink/hardlink races, openat2 RESOLVE_NO_SYMLINKS & atomic file operations"

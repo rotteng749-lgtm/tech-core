@@ -1,0 +1,3 @@
+interface:
+  display_name: "802.11w Management Frame Protection"
+  short_description: "PMF (802.11w) enforcement verification & unauthenticated frame resilience"

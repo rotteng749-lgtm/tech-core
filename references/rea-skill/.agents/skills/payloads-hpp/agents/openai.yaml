@@ -1,0 +1,3 @@
+interface:
+  display_name: "HTTP Parameter Pollution Payloads"
+  short_description: "HTTP Parameter Pollution payloads for WAF bypass and backend logic manipulation."

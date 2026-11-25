@@ -1,0 +1,2 @@
+display_name: "Benchmark Optimization Loop"
+short_description: "Turn a user's improvement goal into a bounded benchmark-guided loop: define success and hard constraints, establish a baseline, test one-hypothesis variants, and promote the best measured admissible result with reproducible commands. Use for repeated measured improvements to correctness, quality, task completion, reliability, speed, or cost, including recursive optimization and implementation comparisons."

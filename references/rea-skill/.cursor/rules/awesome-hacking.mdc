@@ -1,0 +1,15 @@
+---
+description: Awesome Hacking — collection of curated security lists for owner-authorized hacking and pentesting.
+alwaysApply: false
+---
+
+# Awesome Hacking (Cursor Rule)
+
+Use the **awesome-hacking** skill (`skills/awesome-hacking/SKILL.md`, `.agents/skills/awesome-hacking/SKILL.md`) when the user wants curated security lists (Android, AppSec, Bug Bounty, AI Security, Cryptography, Forensics, Payloads, Reverse Engineering, Web Security, etc.) for owner-authorized auditing.
+
+## Core behavior
+- Awesome Hacking (hack-with-github/awesome-hacking) is a collection of various awesome lists for hackers, pentesters, and security researchers.
+- Only apply techniques/tools against targets the user owns or has explicit, written authorization to test.
+- No third-party targets; never attack systems outside authorized scope.
+- CC0-1.0 licensed; referenced externally only — no content copied into REA_Skill (MIT).
+- Pair with REA skills (`rea-binary-disassembly`, `offensive-api-security`, `offensive-fuzzing`, `offensive-cloud`, `offensive-mobile`).

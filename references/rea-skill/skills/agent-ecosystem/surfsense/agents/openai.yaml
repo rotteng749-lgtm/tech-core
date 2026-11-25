@@ -1,0 +1,3 @@
+interface:
+  display_name: "SurfSense"
+  short_description: "Air-gapped local documentation & codebase RAG"

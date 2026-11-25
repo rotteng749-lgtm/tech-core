@@ -1,0 +1,3 @@
+interface:
+  display_name: "Linux Privilege Escalation Audit"
+  short_description: "SUID/SGID review, file capabilities, sudoers rules, systemd units & cron permissions"

@@ -1,0 +1,3 @@
+interface:
+  display_name: "Server-Side Request Forgery (SSRF)"
+  short_description: "SSRF detection, URL parser differentials, IMDSv2 & egress filtering"

@@ -1,0 +1,2 @@
+display_name: Claude Memory Compression
+short_description: Persistent memory compression system for Claude Code that compresses conversation transcripts and project context into snapshots surviving across sessions.

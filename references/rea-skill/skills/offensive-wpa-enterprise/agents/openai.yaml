@@ -1,0 +1,3 @@
+interface:
+  display_name: "WPA-Enterprise (802.1X/EAP) Audit"
+  short_description: "EAP-TLS vs PEAP/MSCHAPv2, RADIUS certificate validation & NAC review"

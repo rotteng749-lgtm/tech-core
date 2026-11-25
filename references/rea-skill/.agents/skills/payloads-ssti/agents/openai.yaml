@@ -1,0 +1,3 @@
+interface:
+  display_name: "SSTI Payloads"
+  short_description: "Server-Side Template Injection payloads for Jinja2, Twig, Freemarker, and more."

@@ -1,0 +1,3 @@
+interface:
+  display_name: "Request Smuggling Payloads"
+  short_description: "HTTP request smuggling payloads for CL.TE, TE.CL, and TE.TE desync attacks."

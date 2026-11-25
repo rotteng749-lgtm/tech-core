@@ -1,0 +1,3 @@
+interface:
+  display_name: "Business Logic Error Payloads"
+  short_description: "Business logic flaw payloads for price manipulation, workflow bypass, and privilege escalation."

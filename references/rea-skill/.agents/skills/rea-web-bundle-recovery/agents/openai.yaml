@@ -1,0 +1,3 @@
+interface:
+  display_name: "REA Web Bundle Recovery"
+  short_description: "JS/TS bundles, WASM decompilation & Electron asar recovery"

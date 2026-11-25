@@ -1,0 +1,15 @@
+---
+description: Awesome Hacking Resources — curated hacking/penetration testing resource collection for owner-authorized learning and auditing.
+alwaysApply: false
+---
+
+# Awesome Hacking Resources (Cursor Rule)
+
+Use the **awesome-hacking-resources** skill (`skills/awesome-hacking-resources/SKILL.md`, `.agents/skills/awesome-hacking-resources/SKILL.md`) when the user wants curated hacking/penetration testing resources for learning or auditing systems they own or are explicitly authorized to test.
+
+## Core behavior
+- Awesome Hacking Resources (vitalysim/awesome-hacking-resources) is a curated collection of hacking, pentesting, and AI red-teaming resources.
+- Only apply techniques/tools against targets the user owns or has explicit, written authorization to test.
+- No third-party targets; never attack systems outside authorized scope.
+- GPL-3.0 licensed; referenced externally only — no content copied into REA_Skill (MIT).
+- Pair with REA skills (`rea-binary-disassembly`, `offensive-linux-privesc`, `offensive-osint`, `website-security-audit`) for hands-on work.

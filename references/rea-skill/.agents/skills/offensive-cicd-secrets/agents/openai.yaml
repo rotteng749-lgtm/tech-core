@@ -1,0 +1,3 @@
+interface:
+  display_name: "CI/CD Secret Management & OIDC Federation"
+  short_description: "Short-lived OIDC tokens, secret masking, environment protection & vault integration"

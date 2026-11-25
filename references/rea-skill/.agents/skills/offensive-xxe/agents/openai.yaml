@@ -1,0 +1,3 @@
+interface:
+  display_name: "XML External Entity (XXE) Audit"
+  short_description: "XML parser hardening, DTD/entity resolution audit & SOAP/SVG checks"

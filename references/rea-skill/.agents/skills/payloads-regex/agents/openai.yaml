@@ -1,0 +1,3 @@
+interface:
+  display_name: "ReDoS & Regex Attack Payloads"
+  short_description: "Regular expression exploitation payloads for ReDoS, catastrophic backtracking, and filter bypass."

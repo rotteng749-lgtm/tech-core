@@ -1,0 +1,3 @@
+interface:
+  display_name: "Cross-Site Scripting (XSS) Audit"
+  short_description: "Reflected, stored, DOM, and mutation XSS analysis & CSP hardening"

@@ -1,0 +1,3 @@
+interface:
+  display_name: "Playwright MCP"
+  short_description: "Local browser automation & accessibility tree E2E"

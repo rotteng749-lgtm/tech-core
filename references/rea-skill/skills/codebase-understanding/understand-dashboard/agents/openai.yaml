@@ -1,0 +1,3 @@
+﻿interface:
+  display_name: "Understand Dashboard"
+  short_description: "Launch interactive web dashboard to visualize knowledge graph"

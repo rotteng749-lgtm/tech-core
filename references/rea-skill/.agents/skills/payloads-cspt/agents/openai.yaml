@@ -1,0 +1,3 @@
+interface:
+  display_name: "Client Side Path Traversal Payloads"
+  short_description: "Client-side path traversal payloads for XSS gadgets and fetch URL manipulation."

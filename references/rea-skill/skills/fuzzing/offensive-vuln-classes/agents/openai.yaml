@@ -1,0 +1,3 @@
+interface:
+  display_name: "Software Vulnerability Taxonomy (CWE)"
+  short_description: "Comprehensive CWE reference across memory, logic, crypto, parser & concurrency bugs"

@@ -1,0 +1,3 @@
+interface:
+  display_name: "WPA2-PSK Security Assessment"
+  short_description: "4-way handshake/PMKID risk analysis, passphrase policy & WPA3 migration"

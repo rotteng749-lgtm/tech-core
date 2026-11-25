@@ -1,0 +1,3 @@
+﻿interface:
+  display_name: "Understand Codebase"
+  short_description: "Analyze codebase to produce interactive knowledge graph"

@@ -1,0 +1,3 @@
+interface:
+  display_name: "Wi-Fi Protected Setup (WPS) Audit"
+  short_description: "WPS PIN exposure verification, Pixie Dust risk check & WPS disablement"

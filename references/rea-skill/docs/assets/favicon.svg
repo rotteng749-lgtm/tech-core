@@ -1,0 +1,116 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120" width="120" height="120" fill="none">
+  <defs>
+    <!-- Radial Glow Background -->
+    <radialGradient id="ambientGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0.35">
+        <animate attributeName="stop-opacity" values="0.25;0.5;0.25" dur="3s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="60%" stop-color="#3b82f6" stop-opacity="0.12">
+        <animate attributeName="stop-opacity" values="0.08;0.2;0.08" dur="3s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#06080F" stop-opacity="0" />
+    </radialGradient>
+
+    <!-- Shield Gradient -->
+    <linearGradient id="shieldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8">
+        <animate attributeName="stop-color" values="#38bdf8;#818cf8;#34d399;#38bdf8" dur="6s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#2563eb">
+        <animate attributeName="stop-color" values="#2563eb;#a855f7;#059669;#2563eb" dur="6s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+
+    <!-- Inner Shield Gradient -->
+    <linearGradient id="innerShield" x1="0%" y1="0%" x2="0%" y2="100%">
+      <stop offset="0%" stop-color="#0f172a" stop-opacity="0.95" />
+      <stop offset="100%" stop-color="#020617" stop-opacity="0.98" />
+    </linearGradient>
+
+    <!-- Accent Stroke Gradient -->
+    <linearGradient id="strokeGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#34d399" />
+      <stop offset="100%" stop-color="#a855f7" />
+    </linearGradient>
+
+    <!-- Filter Glow -->
+    <filter id="neonGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3.5" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <filter id="softGlow" x="-30%" y="-30%" width="160%" height="160%">
+      <feGaussianBlur stdDeviation="6" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+  </defs>
+
+  <!-- Ambient Pulsing Glow Circle -->
+  <circle cx="60" cy="60" r="54" fill="url(#ambientGlow)">
+    <animate attributeName="r" values="48;56;48" dur="3s" repeatCount="indefinite" />
+  </circle>
+
+  <!-- Outer Orbiting Ring 1 (Rotating Clockwise) -->
+  <circle cx="60" cy="60" r="50" stroke="url(#strokeGrad)" stroke-width="1.5" stroke-dasharray="8 12" stroke-linecap="round" opacity="0.6">
+    <animateTransform attributeName="transform" type="rotate" from="0 60 60" to="360 60 60" dur="14s" repeatCount="indefinite" />
+  </circle>
+
+  <!-- Outer Orbiting Ring 2 (Rotating Counter-Clockwise) -->
+  <circle cx="60" cy="60" r="43" stroke="#38bdf8" stroke-width="1" stroke-dasharray="4 16" stroke-linecap="round" opacity="0.4">
+    <animateTransform attributeName="transform" type="rotate" from="360 60 60" to="0 60 60" dur="10s" repeatCount="indefinite" />
+  </circle>
+
+  <!-- Floating Orbiting Particles -->
+  <circle cx="60" cy="10" r="2.5" fill="#38bdf8" filter="url(#neonGlow)">
+    <animateTransform attributeName="transform" type="rotate" from="0 60 60" to="360 60 60" dur="8s" repeatCount="indefinite" />
+  </circle>
+  <circle cx="60" cy="110" r="2" fill="#34d399" filter="url(#neonGlow)">
+    <animateTransform attributeName="transform" type="rotate" from="180 60 60" to="540 60 60" dur="8s" repeatCount="indefinite" />
+  </circle>
+
+  <!-- Animated Shield Container (Gentle Floating / Breathing) -->
+  <g>
+    <animateTransform attributeName="transform" type="translate" values="0 0; 0 -2.5; 0 0" dur="3s" repeatCount="indefinite" />
+
+    <!-- Outer Shield Border with Glow -->
+    <path d="M60 22 L86 33 C86 57 74 77 60 88 C46 77 34 57 34 33 Z" 
+          fill="url(#innerShield)" 
+          stroke="url(#shieldGrad)" 
+          stroke-width="2.5" 
+          stroke-linejoin="round"
+          filter="url(#neonGlow)" />
+
+    <!-- Inner Shield Accent Line -->
+    <path d="M60 28 L80 37 C80 55 70 71 60 80 C50 71 40 55 40 37 Z" 
+          fill="none" 
+          stroke="#38bdf8" 
+          stroke-width="1" 
+          stroke-dasharray="3 3"
+          opacity="0.35" />
+
+    <!-- Core Authorization Hologram: Glowing Checkmark & Keyhole -->
+    <!-- Checkmark Path with Draw & Pulse Animation -->
+    <path d="M49 53 L57 61 L73 45" 
+          fill="none" 
+          stroke="#38bdf8" 
+          stroke-width="3.5" 
+          stroke-linecap="round" 
+          stroke-linejoin="round"
+          filter="url(#neonGlow)">
+      <animate attributeName="stroke" values="#38bdf8;#34d399;#818cf8;#38bdf8" dur="4s" repeatCount="indefinite" />
+      <animate attributeName="stroke-width" values="3.2;4;3.2" dur="2s" repeatCount="indefinite" />
+    </path>
+
+    <!-- Little Glowing Sparkle Center -->
+    <circle cx="57" cy="61" r="1.5" fill="#ffffff" filter="url(#neonGlow)">
+      <animate attributeName="opacity" values="0.4;1;0.4" dur="1.5s" repeatCount="indefinite" />
+    </circle>
+  </g>
+</svg>

@@ -1,0 +1,3 @@
+interface:
+  display_name: "Mass Assignment Payloads"
+  short_description: "Mass assignment attack payloads for unauthorized parameter binding in web frameworks."

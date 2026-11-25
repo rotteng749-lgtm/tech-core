@@ -1,0 +1,17 @@
+---
+description: Automated 5-Phase defensive website security audit for user-owned web applications
+globs: ["**/*"]
+alwaysApply: true
+---
+
+# Website Security Audit (Cursor)
+
+## Directive
+When the user asks to inspect, audit, or find vulnerabilities in their websites or web applications (e.g. Next.js, Vercel, Supabase, Clerk, Paddle):
+- Automatically execute the 5-phase audit methodology:
+  1. **HTTP Security Headers:** Inspect HSTS, CSP (verify enforced vs report-only), CORS wildcards, X-Frame-Options, MIME sniffing.
+  2. **Frontend Bundle Leaks:** Scan client JS bundles for leaked private keys (`SUPABASE_SERVICE_ROLE_KEY`, private webhook tokens, internal credentials).
+  3. **Auth & Database Access:** Verify Supabase RLS coverage, Clerk publishable keys, session security.
+  4. **API Route Exposure:** Discover public `/api/*` endpoints and recommend rate limiting.
+  5. **Webhook Hardening:** Verify HMAC signature verification on payment/third-party routes.
+- Deliver an executive summary, high/medium findings, verified strengths, and actionable remediation snippets.

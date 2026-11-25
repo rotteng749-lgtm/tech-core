@@ -1,0 +1,3 @@
+interface:
+  display_name: "Layer 2/3 Network Security Audit"
+  short_description: "Dynamic ARP Inspection (DAI), DHCP snooping, LLMNR/NBT-NS disablement & 802.1Q VLANs"

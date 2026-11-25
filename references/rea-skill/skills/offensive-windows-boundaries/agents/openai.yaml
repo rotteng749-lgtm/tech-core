@@ -1,0 +1,3 @@
+interface:
+  display_name: "Windows Security Boundaries & UAC/IL"
+  short_description: "Mandatory Integrity Control (MIC), AppContainer sandboxes & RPC/ALPC boundaries"

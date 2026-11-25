@@ -1,0 +1,3 @@
+interface:
+  display_name: "Virtual Host Attack Payloads"
+  short_description: "Virtual host discovery and manipulation payloads for multi-tenant bypass and SSRF escalation."

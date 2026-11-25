@@ -1,0 +1,3 @@
+interface:
+  display_name: "Dependency Confusion & Registry Scoping"
+  short_description: "Private npm/PyPI/NuGet/Maven scope pinning & registry resolution verification"

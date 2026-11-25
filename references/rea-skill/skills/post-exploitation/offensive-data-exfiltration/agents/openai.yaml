@@ -1,0 +1,3 @@
+interface:
+  display_name: "DLP & Egress Data Protection Audit"
+  short_description: "Egress DNS/HTTPS filtering, cloud storage controls & database audit logging"

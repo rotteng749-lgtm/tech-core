@@ -1,0 +1,3 @@
+interface:
+  display_name: "LDAP Injection Payloads"
+  short_description: "LDAP injection payloads for authentication bypass and directory enumeration."

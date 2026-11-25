@@ -1,0 +1,3 @@
+interface:
+  display_name: "ORM Leak Payloads"
+  short_description: "ORM query leak payloads for Django, Hibernate, ActiveRecord, and Eloquent data exfiltration."

@@ -1,0 +1,3 @@
+﻿interface:
+  display_name: "Understand Figma"
+  short_description: "Analyze Figma file via REST API and generate design knowledge graph"

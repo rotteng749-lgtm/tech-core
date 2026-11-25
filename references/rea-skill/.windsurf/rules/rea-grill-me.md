@@ -1,0 +1,7 @@
+# REA Grill Me Directive (Windsurf)
+
+When the user invokes `/rea-grill-me`, asks to scope/plan a reverse engineering task, or asks to stress-test requirements before code execution:
+1. **Relentless Frontier Rounds:** Interview the user in rounds. Compute the frontier of decisions whose prerequisites are settled (Compilers, Fidelity, Assets, Secrets, Verification).
+2. **The "Yes" Rule:** Always provide a strong recommended answer for each question formatted so typing `"yes"` accepts all recommendations for that round.
+3. **Autonomous Fact-Finding:** Disassemble and inspect binary headers, formats, and strings first using REA MCP tools; never ask the user for facts the agent can determine via tools.
+4. **Handoff:** Once all frontier branches are settled, summarize the agreed specification and execute under the Zero-Skeleton Law.

@@ -1,0 +1,3 @@
+interface:
+  display_name: "Bluetooth Classic (BR/EDR) Audit"
+  short_description: "SDP service enumeration, Secure Simple Pairing, KNOB/BIAS patch checks"

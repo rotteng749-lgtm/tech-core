@@ -1,0 +1,3 @@
+interface:
+  display_name: "Rapid Security Triage Checklist"
+  short_description: "High-signal 15-minute security checklist across web, API, mobile, cloud & binaries"

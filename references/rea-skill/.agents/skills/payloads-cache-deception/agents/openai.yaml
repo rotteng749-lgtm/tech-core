@@ -1,0 +1,3 @@
+interface:
+  display_name: "Web Cache Deception Payloads"
+  short_description: "Web cache deception payloads for stealing sensitive cached responses from authenticated users."

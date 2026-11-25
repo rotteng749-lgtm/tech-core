@@ -1,0 +1,3 @@
+interface:
+  display_name: "Command Injection Payloads"
+  short_description: "OS command injection payloads for Linux, Windows, and filter bypass techniques."

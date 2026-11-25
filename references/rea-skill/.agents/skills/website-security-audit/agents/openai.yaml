@@ -1,0 +1,3 @@
+interface:
+  display_name: "Website Security Audit"
+  short_description: "10-layer defensive web vulnerability & OWASP scanner"

@@ -1,0 +1,3 @@
+interface:
+  display_name: "Directory Traversal Payloads"
+  short_description: "Path traversal and directory traversal payloads with encoding and filter bypass variants."

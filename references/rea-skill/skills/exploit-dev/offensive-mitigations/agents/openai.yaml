@@ -1,0 +1,3 @@
+interface:
+  display_name: "Compiler & Linker Hardening Audit"
+  short_description: "RELRO, PIE, Stack Canaries, FORTIFY_SOURCE, CFI & SafeStack verification"

@@ -1,0 +1,2 @@
+display_name: "Foundation Models On Device"
+short_description: "Apple FoundationModels framework for on-device LLM — text generation, guided generation with @Generable, tool calling, and snapshot streaming in iOS 26+. Use when adding on-device LLM features with Apple FoundationModels on iOS 26+."

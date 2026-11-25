@@ -1,0 +1,3 @@
+interface:
+  display_name: "Input API Telemetry & Hook Detection"
+  short_description: "Win32 SetWindowsHookEx/RawInput/GetAsyncKeyState API monitoring & defense"

@@ -1,0 +1,30 @@
+{
+  "mcpServers": {
+    "rea": {
+      "command": "npx",
+      "args": ["-y", "rea-agents@latest", "run"]
+    },
+    "playwright": {
+      "command": "npx",
+      "args": ["-y", "@playwright/mcp@latest"]
+    },
+    "brightdata": {
+      "command": "npx",
+      "args": ["-y", "@brightdata/mcp"],
+      "env": {
+        "BRIGHTDATA_API_KEY": "${BRIGHTDATA_API_KEY}"
+      }
+    },
+    "hyperbrowser": {
+      "command": "npx",
+      "args": ["-y", "hyperbrowser-mcp"],
+      "env": {
+        "HYPERBROWSER_API_KEY": "${HYPERBROWSER_API_KEY}"
+      }
+    },
+    "Appllama": {
+      "type": "http",
+      "url": "https://mcp.appllama.io/mcp"
+    }
+  }
+}

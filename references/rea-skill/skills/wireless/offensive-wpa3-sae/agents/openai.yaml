@@ -1,0 +1,3 @@
+interface:
+  display_name: "WPA3-SAE & Transition Mode Audit"
+  short_description: "SAE handshake verification, transition-mode downgrade checks & PMF"

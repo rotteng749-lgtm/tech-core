@@ -1,0 +1,3 @@
+interface:
+  display_name: "Internal Segmentation & Lateral Movement Audit"
+  short_description: "Microsegmentation verification, credential guard, WinRM/SMB restriction & jump hosts"

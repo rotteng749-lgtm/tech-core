@@ -1,0 +1,3 @@
+interface:
+  display_name: "CRLF Injection Payloads"
+  short_description: "CRLF injection payloads for HTTP response splitting, header injection, and log poisoning."

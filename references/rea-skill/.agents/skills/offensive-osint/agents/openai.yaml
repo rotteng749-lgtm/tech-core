@@ -1,0 +1,3 @@
+interface:
+  display_name: "External Asset & Attack Surface Discovery"
+  short_description: "Subdomain enumeration, CT logs, ASN mapping & public repository exposure audit"

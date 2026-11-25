@@ -1,0 +1,2 @@
+display_name: Apktool Android Reverse Engineering
+short_description: Android binary reverse engineering and resource toolchain for decoding binary XMLs, disassembling Smali bytecode, and rebuilding modified APK packages.

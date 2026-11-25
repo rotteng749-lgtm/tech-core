@@ -1,0 +1,3 @@
+interface:
+  display_name: "Android & iOS OWASP MASVS Audit"
+  short_description: "Manifest/plist review, Keystore/Keychain storage, TLS pinning & Frida triage"

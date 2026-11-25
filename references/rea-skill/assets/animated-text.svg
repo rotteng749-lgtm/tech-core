@@ -1,0 +1,75 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 68" width="760" height="68" fill="none">
+  <defs>
+    <!-- Shimmering Text Gradient (Continuous Horizontal Wave) -->
+    <linearGradient id="textShimmer" x1="0%" y1="0%" x2="200%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8">
+        <animate attributeName="offset" values="-1; 1" dur="5s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="25%" stop-color="#818cf8">
+        <animate attributeName="offset" values="-0.75; 1.25" dur="5s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="50%" stop-color="#34d399">
+        <animate attributeName="offset" values="-0.5; 1.5" dur="5s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="75%" stop-color="#38bdf8">
+        <animate attributeName="offset" values="-0.25; 1.75" dur="5s" repeatCount="indefinite" />
+      </stop>
+      <stop offset="100%" stop-color="#a855f7">
+        <animate attributeName="offset" values="0; 2" dur="5s" repeatCount="indefinite" />
+      </stop>
+    </linearGradient>
+
+    <!-- Underline Glow Gradient -->
+    <linearGradient id="lineGrad" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#38bdf8" stop-opacity="0" />
+      <stop offset="30%" stop-color="#38bdf8" stop-opacity="0.8" />
+      <stop offset="50%" stop-color="#34d399" stop-opacity="1" />
+      <stop offset="70%" stop-color="#818cf8" stop-opacity="0.8" />
+      <stop offset="100%" stop-color="#a855f7" stop-opacity="0" />
+    </linearGradient>
+
+    <!-- Neon Glow Filter -->
+    <filter id="textGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur" />
+      <feMerge>
+        <feMergeNode in="blur" />
+        <feMergeNode in="SourceGraphic" />
+      </feMerge>
+    </filter>
+
+    <style>
+      .title-text {
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Inter", "JetBrains Mono", sans-serif;
+        font-size: 40px;
+        font-weight: 800;
+        letter-spacing: -0.02em;
+        text-anchor: middle;
+      }
+      .tag-text {
+        font-family: "JetBrains Mono", monospace;
+        font-size: 11px;
+        font-weight: 600;
+        letter-spacing: 0.2em;
+        text-anchor: middle;
+        fill: #94a3b8;
+      }
+    </style>
+  </defs>
+
+  <!-- Ambient Glow Layer behind text -->
+  <text x="380" y="44" class="title-text" fill="url(#textShimmer)" opacity="0.6" filter="url(#textGlow)">
+    REA Complete Authorization
+  </text>
+
+  <!-- Primary Foreground Title Text -->
+  <text x="380" y="44" class="title-text" fill="url(#textShimmer)">
+    REA Complete Authorization
+  </text>
+
+  <!-- Subtle Animated Horizon Line Underneath -->
+  <rect x="180" y="58" width="400" height="2" rx="1" fill="url(#lineGrad)">
+    <animate attributeName="opacity" values="0.4;1;0.4" dur="3s" repeatCount="indefinite" />
+    <animate attributeName="width" values="320;440;320" dur="4s" repeatCount="indefinite" />
+    <animate attributeName="x" values="220;160;220" dur="4s" repeatCount="indefinite" />
+  </rect>
+</svg>

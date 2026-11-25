@@ -1,0 +1,3 @@
+interface:
+  display_name: "ECC Engineering Workflow"
+  short_description: "Everything Claude Code engineering rigor & TDD"

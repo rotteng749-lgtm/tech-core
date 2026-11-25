@@ -1,0 +1,3 @@
+interface:
+  display_name: "Windows Exploit Mitigations Audit"
+  short_description: "ASLR, DEP, CFG, XFG, CET Shadow Stack & HVCI enforcement verification"

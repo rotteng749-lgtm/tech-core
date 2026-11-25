@@ -1,0 +1,3 @@
+interface:
+  display_name: "XPath Injection Payloads"
+  short_description: "XPath injection payloads for XML database authentication bypass and data extraction."

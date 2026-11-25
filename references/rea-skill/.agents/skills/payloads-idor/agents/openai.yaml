@@ -1,0 +1,3 @@
+interface:
+  display_name: "IDOR Payloads"
+  short_description: "IDOR/BOLA payloads for direct object reference attacks and authorization bypass techniques."

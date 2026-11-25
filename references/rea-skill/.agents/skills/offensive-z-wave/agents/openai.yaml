@@ -1,0 +1,3 @@
+interface:
+  display_name: "Z-Wave S0/S2 Security Audit"
+  short_description: "Z-Wave S2 DSK commissioning verification & legacy S0 fallback prevention"

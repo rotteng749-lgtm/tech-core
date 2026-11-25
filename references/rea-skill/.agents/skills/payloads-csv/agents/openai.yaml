@@ -1,0 +1,3 @@
+interface:
+  display_name: "CSV Injection Payloads"
+  short_description: "CSV/formula injection payloads for spreadsheet-based code execution attacks."

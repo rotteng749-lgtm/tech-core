@@ -1,0 +1,3 @@
+interface:
+  display_name: "Zigbee, Thread & Matter Security"
+  short_description: "802.15.4 network key management, install codes & Matter fabric attestation"

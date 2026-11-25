@@ -1,0 +1,3 @@
+interface:
+  display_name: "LaTeX Injection Payloads"
+  short_description: "LaTeX injection payloads for file read, command execution in PDF/math renderers."

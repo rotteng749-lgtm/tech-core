@@ -1,0 +1,3 @@
+interface:
+  display_name: "JWT Attack Payloads"
+  short_description: "JWT attack payloads including alg:none, HMAC confusion, kid injection, and JWK spoofing."

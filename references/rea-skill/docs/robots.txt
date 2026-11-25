@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://smartworldarafath.github.io/REA_Skill/sitemap.xml

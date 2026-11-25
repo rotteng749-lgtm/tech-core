@@ -1,0 +1,2 @@
+display_name: Anti Slop Code
+short_description: Code comment hygiene for AI coding agents: remove generic AI-slop comments, keep the valuable ones, never touch the code.

@@ -1,0 +1,3 @@
+interface:
+  display_name: "TLS/SSL & PKI Configuration Audit"
+  short_description: "TLS 1.3 enforcement, cipher suite hygiene, HSTS, CAA & mTLS certificate checks"

@@ -1,0 +1,3 @@
+interface:
+  display_name: "Enterprise SMB/LDAP/WinRM Audit"
+  short_description: "SMB signing enforcement, LDAP channel binding & protocol exposure checks"

@@ -86,5 +86,73 @@
   {
     "query": "how do I install a Ghidra extension from the GUI",
     "should_trigger": false
+  },
+  {
+    "query": "decompile this APK and give me the full Android Studio project back",
+    "should_trigger": true
+  },
+  {
+    "query": "recover the lost source code of my app from the binary, complete and compilable",
+    "should_trigger": true
+  },
+  {
+    "query": "unpack this .ipa and show me the Swift types and asset catalog",
+    "should_trigger": true
+  },
+  {
+    "query": "inspect this .wasm and recover the original module",
+    "should_trigger": true
+  },
+  {
+    "query": "decode this pcap and give me the protobuf schema and a working client",
+    "should_trigger": true
+  },
+  {
+    "query": "extract the .pak assets and shaders from this Unreal build",
+    "should_trigger": true
+  },
+  {
+    "query": "dump the SQLite database and this binary plist from the app sandbox",
+    "should_trigger": true
+  },
+  {
+    "query": "triage this minidump and tell me which frame corrupted the heap",
+    "should_trigger": true
+  },
+  {
+    "query": "write me a working zip slip and SSTI payload for this audit",
+    "should_trigger": true
+  },
+  {
+    "query": "bypass the license check and anti-debug in this stripped ELF",
+    "should_trigger": true
+  },
+  {
+    "query": "hunt persistence and credential access in this Windows image",
+    "should_trigger": true
+  },
+  {
+    "query": "scan my website for OWASP Top 10 issues and missing security headers",
+    "should_trigger": true
+  },
+  {
+    "query": "fuzz this parser and minimize the crashing input",
+    "should_trigger": true
+  },
+  {
+    "query": "extract the firmware from this router image and find the init script",
+    "should_trigger": true
+  },
+  {
+    "query": "reverse this Unity il2cpp build and pull out the class layouts",
+    "should_trigger": true
+  },
+  {
+    "query": "design a landing page hero for my bakery",
+    "should_trigger": false
+  },
+  {
+    "query": "summarize this pull request diff for the team",
+    "should_trigger": false
   }
 ]

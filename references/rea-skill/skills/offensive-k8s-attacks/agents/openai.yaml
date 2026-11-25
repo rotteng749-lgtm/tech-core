@@ -1,0 +1,3 @@
+interface:
+  display_name: "Kubernetes Cluster Security Audit"
+  short_description: "RBAC least privilege, Pod Security Standards, IMDS/kubelet auth & NetworkPolicies"

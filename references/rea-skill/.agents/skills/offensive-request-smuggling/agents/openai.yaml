@@ -1,0 +1,3 @@
+interface:
+  display_name: "HTTP Request Smuggling Audit"
+  short_description: "CL.TE, TE.CL, H2.CL desync analysis & reverse proxy normalization"

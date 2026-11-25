@@ -1,0 +1,3 @@
+interface:
+  display_name: "Zip Slip Payloads"
+  short_description: "Zip slip archive traversal payloads for arbitrary file write via malicious ZIP/TAR archives."

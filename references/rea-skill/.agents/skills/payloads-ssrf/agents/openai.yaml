@@ -1,0 +1,3 @@
+interface:
+  display_name: "SSRF Payloads"
+  short_description: "Server-Side Request Forgery payloads, bypass lists, and cloud metadata exploitation."

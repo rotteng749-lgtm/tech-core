@@ -1,0 +1,3 @@
+interface:
+  display_name: "GraphQL Injection Payloads"
+  short_description: "GraphQL injection, introspection abuse, batching attacks, and authorization bypass."

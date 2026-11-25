@@ -1,0 +1,3 @@
+interface:
+  display_name: "CVE Exploit Payloads"
+  short_description: "Real-world CVE exploit payloads and PoC scripts for known vulnerabilities."

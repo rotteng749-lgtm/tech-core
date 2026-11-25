@@ -1,0 +1,3 @@
+interface:
+  display_name: "Reverse Proxy Misconfiguration Payloads"
+  short_description: "Reverse proxy misconfiguration payloads for path confusion, header injection, and SSRF."

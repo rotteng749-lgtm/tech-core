@@ -1,0 +1,3 @@
+interface:
+  display_name: "File Upload Security Audit"
+  short_description: "MIME/magic-byte validation, path traversal, polyglots & isolated storage"

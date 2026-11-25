@@ -1,0 +1,3 @@
+interface:
+  display_name: "Server-Side Template Injection (SSTI)"
+  short_description: "Template engine fingerprinting, sandbox evaluation & safe rendering"

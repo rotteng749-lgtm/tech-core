@@ -1,0 +1,3 @@
+interface:
+  display_name: "NoSQL Injection Payloads"
+  short_description: "NoSQL injection payloads for MongoDB, CouchDB, Redis, and document store bypass."

@@ -1,0 +1,3 @@
+interface:
+  display_name: "WAF Rule & Normalization Audit"
+  short_description: "Content-Type/encoding normalization, body inspection limits & root fixes"

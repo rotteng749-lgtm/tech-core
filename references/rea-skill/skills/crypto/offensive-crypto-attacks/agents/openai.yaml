@@ -1,0 +1,3 @@
+interface:
+  display_name: "Cryptographic Implementation Audit"
+  short_description: "AEAD (AES-GCM/ChaCha20) usage, nonce reuse prevention, CSPRNG & KDF review"

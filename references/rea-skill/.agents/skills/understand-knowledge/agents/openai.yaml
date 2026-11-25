@@ -1,0 +1,3 @@
+﻿interface:
+  display_name: "Understand Knowledge"
+  short_description: "Analyze Karpathy-pattern LLM wiki and generate knowledge graph"

@@ -1,0 +1,3 @@
+interface:
+  display_name: "External Attack Surface & Perimeter Audit"
+  short_description: "Perimeter service inventory, VPN/SSO hardening & exposed management ports"

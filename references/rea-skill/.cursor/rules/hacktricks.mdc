@@ -1,0 +1,15 @@
+---
+description: HackTricks — pentesting tricks and techniques reference for owner-authorized security auditing.
+alwaysApply: false
+---
+
+# HackTricks (Cursor Rule)
+
+Use the **hacktricks** skill (`skills/hacktricks/SKILL.md`, `.agents/skills/hacktricks/SKILL.md`) when the user wants pentesting tricks and techniques from CTFs, real-world apps, and security research for auditing systems they own or are explicitly authorized to test.
+
+## Core behavior
+- HackTricks (book.hacktricks.xyz) covers web, network, AD, cloud, mobile, reversing, WiFi, IoT, and CTF techniques.
+- Only apply techniques against targets the user owns or has explicit, written authorization to test.
+- No third-party targets; never apply techniques outside authorized scope.
+- Referenced externally only — no content copied into REA_Skill (MIT).
+- Combine with REA skills (`offensive-active-directory`, `offensive-windows-boundaries`, `offensive-api-security`, `offensive-cloud`, `rea-binary-disassembly`).

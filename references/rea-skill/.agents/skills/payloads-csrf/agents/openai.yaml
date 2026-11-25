@@ -1,0 +1,3 @@
+interface:
+  display_name: "CSRF Payloads"
+  short_description: "Cross-Site Request Forgery payload templates and CSRF token bypass techniques."

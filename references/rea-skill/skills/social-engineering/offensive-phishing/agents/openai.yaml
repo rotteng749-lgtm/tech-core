@@ -1,0 +1,3 @@
+interface:
+  display_name: "Email Authentication (SPF/DKIM/DMARC) & FIDO2 Audit"
+  short_description: "SPF/DKIM/DMARC p=reject verification, lookalike domain monitoring & WebAuthn/FIDO2"

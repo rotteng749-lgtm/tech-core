@@ -1,0 +1,3 @@
+interface:
+  display_name: "SSI Injection Payloads"
+  short_description: "Server-Side Include injection payloads for RCE and file disclosure via Apache/Nginx SSI."

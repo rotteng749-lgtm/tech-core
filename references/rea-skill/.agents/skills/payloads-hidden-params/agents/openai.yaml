@@ -1,0 +1,3 @@
+interface:
+  display_name: "Hidden Parameter Discovery Payloads"
+  short_description: "Hidden parameter discovery wordlists and techniques for endpoint attack surface expansion."

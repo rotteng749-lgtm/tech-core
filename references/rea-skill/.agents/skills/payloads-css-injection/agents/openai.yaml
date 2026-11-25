@@ -1,0 +1,3 @@
+interface:
+  display_name: "CSS Injection Payloads"
+  short_description: "CSS injection payloads for data exfiltration, UI redress, and attribute value theft."

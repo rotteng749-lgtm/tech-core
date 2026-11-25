@@ -1,0 +1,3 @@
+interface:
+  display_name: "CI/CD Pipeline Security (GitHub/GitLab)"
+  short_description: "pull_request_target risks, expression injection, runner isolation & pinned SHAs"

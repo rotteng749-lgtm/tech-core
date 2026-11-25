@@ -1,0 +1,3 @@
+interface:
+  display_name: "Endpoint Persistence Hunting & Autoruns Audit"
+  short_description: "Registry Run keys, scheduled tasks, WMI subscriptions, systemd & PAM integrity"

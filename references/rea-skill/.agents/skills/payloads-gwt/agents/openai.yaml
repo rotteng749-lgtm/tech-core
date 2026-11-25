@@ -1,0 +1,3 @@
+interface:
+  display_name: "Google Web Toolkit Payloads"
+  short_description: "GWT application attack payloads for RPC serialization abuse and endpoint discovery."

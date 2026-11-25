@@ -1,0 +1,3 @@
+interface:
+  display_name: "Brute Force & Rate Limit Bypass"
+  short_description: "Brute force payloads and rate limit bypass techniques for credential stuffing and enumeration."

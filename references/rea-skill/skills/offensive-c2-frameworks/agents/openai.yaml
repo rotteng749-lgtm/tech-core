@@ -1,0 +1,3 @@
+interface:
+  display_name: "C2 Traffic Analysis & Network Detection"
+  short_description: "JA3/JA4 TLS fingerprinting, beacon jitter analysis & egress threat hunting"

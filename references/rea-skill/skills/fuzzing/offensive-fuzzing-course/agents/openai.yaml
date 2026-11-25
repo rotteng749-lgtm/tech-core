@@ -1,0 +1,3 @@
+interface:
+  display_name: "Automated Vulnerability Discovery Curriculum"
+  short_description: "End-to-end training on greybox, grammar, snapshot & kernel fuzzing workflows"

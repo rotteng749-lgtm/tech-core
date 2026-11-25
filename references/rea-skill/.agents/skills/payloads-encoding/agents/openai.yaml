@@ -1,0 +1,3 @@
+interface:
+  display_name: "Encoding Transformation Payloads"
+  short_description: "Encoding transformation payloads for WAF bypass using URL, HTML, Unicode, and base encoding."

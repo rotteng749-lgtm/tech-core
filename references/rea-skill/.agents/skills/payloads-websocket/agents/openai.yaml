@@ -1,0 +1,3 @@
+interface:
+  display_name: "WebSocket Attack Payloads"
+  short_description: "WebSocket injection payloads for CSWSH, message hijacking, and protocol upgrade attacks."

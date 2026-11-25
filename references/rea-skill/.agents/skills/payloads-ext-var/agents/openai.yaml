@@ -1,0 +1,3 @@
+interface:
+  display_name: "External Variable Modification Payloads"
+  short_description: "External variable modification payloads for global scope poisoning and configuration injection."

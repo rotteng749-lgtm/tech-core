@@ -1,0 +1,3 @@
+interface:
+  display_name: "XXE Injection Payloads"
+  short_description: "XML External Entity injection payloads for file disclosure, SSRF, and RCE."

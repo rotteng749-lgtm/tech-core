@@ -1,0 +1,3 @@
+interface:
+  display_name: "Race Condition Payloads"
+  short_description: "Race condition attack payloads and timing attack scripts for state manipulation exploits."

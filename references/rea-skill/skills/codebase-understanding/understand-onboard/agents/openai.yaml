@@ -1,0 +1,3 @@
+﻿interface:
+  display_name: "Understand Onboard"
+  short_description: "Generate comprehensive onboarding guide from knowledge graph"

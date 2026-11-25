@@ -1,0 +1,3 @@
+interface:
+  display_name: "JWT Implementation Security"
+  short_description: "Algorithm enforcement, key confusion (RS256/HS256), jwk/jku/kid & claims"

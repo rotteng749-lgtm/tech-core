@@ -1,0 +1,3 @@
+interface:
+  display_name: "XSLT Injection Payloads"
+  short_description: "XSLT injection payloads for server-side XML transformation exploitation and RCE."

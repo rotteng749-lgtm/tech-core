@@ -1,0 +1,3 @@
+interface:
+  display_name: "IDOR & Broken Object Level Auth"
+  short_description: "BOLA/IDOR enumeration testing, tenant isolation & RLS verification"

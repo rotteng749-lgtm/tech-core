@@ -1,0 +1,3 @@
+interface:
+  display_name: "802.11 Protocol Patch Verification"
+  short_description: "KRACK key reinstallation & FragAttacks frame aggregation patch auditing"

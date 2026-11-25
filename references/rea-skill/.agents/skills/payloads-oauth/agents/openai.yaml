@@ -1,0 +1,3 @@
+interface:
+  display_name: "OAuth Misconfiguration Payloads"
+  short_description: "OAuth 2.0 misconfiguration exploitation payloads for token theft and account takeover."

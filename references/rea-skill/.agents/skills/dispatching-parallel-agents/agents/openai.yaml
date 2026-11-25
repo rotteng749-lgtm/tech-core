@@ -1,0 +1,2 @@
+display_name: "Dispatching Parallel Agents"
+short_description: "Use when facing 2+ independent tasks that can be worked on without shared state or sequential dependencies"

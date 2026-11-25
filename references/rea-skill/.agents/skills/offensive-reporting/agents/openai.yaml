@@ -1,0 +1,3 @@
+interface:
+  display_name: "Security Assessment & Vulnerability Reporting"
+  short_description: "Executive summaries, CVSS v3.1/v4.0 scoring, reproducible PoCs & remediation roadmaps"

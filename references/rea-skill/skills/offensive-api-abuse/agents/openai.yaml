@@ -1,0 +1,3 @@
+interface:
+  display_name: "API Business Logic & Scraping Resilience"
+  short_description: "Pagination/export abuse, idempotency enforcement & automated abuse controls"

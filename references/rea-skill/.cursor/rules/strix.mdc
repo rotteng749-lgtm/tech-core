@@ -1,0 +1,19 @@
+---
+description: Strix AI Penetration Testing — autonomous AI pentest agent for owner-authorized vulnerability discovery and remediation.
+alwaysApply: false
+---
+
+# Strix AI Penetration Testing (Cursor Rule)
+
+Use the **Strix** skill (`skills/strix/SKILL.md`, `.agents/skills/strix/SKILL.md`) when the user wants to penetration test, vulnerability-scan, or find-and-fix weaknesses in applications, websites, or services they own or are explicitly authorized to test.
+
+## Core behavior
+- Strix is an open-source AI penetration testing agent (usestrix/strix) that runs autonomous AI hackers against targets and proposes remediation.
+- Only targets the user owns or has explicit, written authorization to test. Unauthorized testing is prohibited and illegal in most jurisdictions.
+- Strix output (cloud scans, `strix cloud vulns list --severity critical --json`) can be fed back into REA skills for reverse-engineering and remediation of affected components.
+
+## Suggested workflow
+1. Confirm target ownership/authorization before proceeding.
+2. Run Strix scan (local or `strix cloud scans start ... --wait`).
+3. Review vulnerabilities (`strix cloud vulns list --severity critical`).
+4. Route findings to REA skills (e.g., `website-security-audit`, binary disassembly, source recovery) for root-cause analysis and fixes.

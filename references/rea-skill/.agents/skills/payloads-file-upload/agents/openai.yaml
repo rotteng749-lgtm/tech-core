@@ -1,0 +1,3 @@
+interface:
+  display_name: "Insecure File Upload Payloads"
+  short_description: "File upload bypass payloads covering extension tricks, MIME manipulation, and polyglot files."

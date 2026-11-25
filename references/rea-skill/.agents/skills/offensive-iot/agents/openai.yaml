@@ -1,0 +1,3 @@
+interface:
+  display_name: "IoT, Embedded & ICS/OT Security"
+  short_description: "UART/JTAG debug lockdown, secure boot chain, firmware encryption & OTA signing"

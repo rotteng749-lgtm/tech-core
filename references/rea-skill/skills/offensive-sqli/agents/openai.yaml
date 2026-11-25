@@ -1,0 +1,3 @@
+interface:
+  display_name: "SQL Injection Audit"
+  short_description: "SQLi detection, query parameterization audit & ORM vulnerability analysis"

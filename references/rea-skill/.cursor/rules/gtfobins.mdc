@@ -1,0 +1,14 @@
+---
+description: GTFOBins — Unix binary bypass reference for owner-authorized privilege escalation and post-exploitation auditing.
+alwaysApply: false
+---
+
+# GTFOBins (Cursor Rule)
+
+Use the **GTFOBins** skill (`skills/gtfobins/SKILL.md`, `.agents/skills/gtfobins/SKILL.md`) when the user wants to audit Unix-like executables for privilege escalation, post-exploitation, or security-bypass techniques on systems they own or are explicitly authorized to test.
+
+## Core behavior
+- GTFOBins (gtfobins.org) is a curated reference of Unix binaries that can bypass local security restrictions (SUID/sudo abuse, bind/reverse shell, file read/write, exfiltration).
+- Only targets the user owns or has explicit, written authorization to test. Unauthorized privilege escalation/bypass is prohibited and illegal in most jurisdictions.
+- GTFOBins is GPL-3.0; this skill references it externally and copies no content into REA_Skill (MIT).
+- Feed GTFOBins findings into REA skills (`rea-binary-disassembly`, `offensive-linux-privesc`, `website-security-audit`) for root-cause analysis and remediation.

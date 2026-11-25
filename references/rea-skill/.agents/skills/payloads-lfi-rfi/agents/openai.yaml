@@ -1,0 +1,3 @@
+interface:
+  display_name: "File Inclusion Payloads"
+  short_description: "LFI/RFI payloads for path traversal, log poisoning, PHP filter chains, and RCE."

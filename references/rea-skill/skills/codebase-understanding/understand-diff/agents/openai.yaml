@@ -1,0 +1,3 @@
+﻿interface:
+  display_name: "Understand Diff"
+  short_description: "Analyze git diffs and PRs to understand impact and risks"

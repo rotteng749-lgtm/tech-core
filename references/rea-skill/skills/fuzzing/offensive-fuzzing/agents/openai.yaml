@@ -1,0 +1,3 @@
+interface:
+  display_name: "Coverage-Guided Fuzzing (AFL++ / libFuzzer)"
+  short_description: "Fuzz target selection, harness engineering, ASan/UBSan & corpus minimization"

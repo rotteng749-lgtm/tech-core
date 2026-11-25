@@ -1,0 +1,2 @@
+display_name: Lightpanda Headless Browser
+short_description: Headless browser for AI agents and automation, 16x lighter and 9x faster than Chromium, written in Zig with CDP compatibility for drop-in Playwright/Puppeteer replacement.

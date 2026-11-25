@@ -1,0 +1,3 @@
+interface:
+  display_name: "Insecure Deserialization Audit"
+  short_description: "Java, .NET, PHP, Python & Node serialization safety & type constraints"

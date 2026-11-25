@@ -1,0 +1,3 @@
+interface:
+  display_name: "Clickjacking Payloads"
+  short_description: "Clickjacking PoC templates and X-Frame-Options bypass payloads."

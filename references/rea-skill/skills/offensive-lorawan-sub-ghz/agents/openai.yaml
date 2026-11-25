@@ -1,0 +1,3 @@
+interface:
+  display_name: "LoRaWAN & Sub-GHz RF Security"
+  short_description: "OTAA vs ABP provisioning, frame counter replay protection & AppKey storage"

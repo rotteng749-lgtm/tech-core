@@ -1,0 +1,3 @@
+interface:
+  display_name: "Headless Browser Attack Payloads"
+  short_description: "Headless browser exploitation payloads for SSRF, XSS, and sandbox escape via Puppeteer/CDP."

@@ -1,0 +1,3 @@
+interface:
+  display_name: "CORS Misconfiguration Payloads"
+  short_description: "CORS misconfiguration exploitation payloads and PoC scripts for cross-origin data theft."

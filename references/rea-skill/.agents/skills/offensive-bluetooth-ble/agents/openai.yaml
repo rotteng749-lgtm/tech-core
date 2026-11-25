@@ -1,0 +1,3 @@
+interface:
+  display_name: "Bluetooth Low Energy (BLE) Audit"
+  short_description: "GATT service/characteristic permissions, LE Secure Connections & bonding"

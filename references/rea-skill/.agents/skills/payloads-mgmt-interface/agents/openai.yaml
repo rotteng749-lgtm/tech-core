@@ -1,0 +1,3 @@
+interface:
+  display_name: "Insecure Management Interface Payloads"
+  short_description: "Management interface exposure payloads for default credentials, admin panel bypass, and enumeration."

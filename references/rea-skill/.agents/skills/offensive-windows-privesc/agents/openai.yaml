@@ -1,0 +1,3 @@
+interface:
+  display_name: "Windows Privilege Escalation Audit"
+  short_description: "Service binary/registry ACLs, unquoted paths, SeImpersonate tokens & DLL search order"

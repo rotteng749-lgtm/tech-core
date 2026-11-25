@@ -1,0 +1,3 @@
+interface:
+  display_name: "OAuth 2.0 & OIDC Security Audit"
+  short_description: "PKCE enforcement, state CSRF, redirect_uri matching & account linking"

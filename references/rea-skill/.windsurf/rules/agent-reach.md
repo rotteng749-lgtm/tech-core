@@ -1,0 +1,10 @@
+# Agent Reach (Windsurf)
+
+## Directive
+When the user asks to search, look up, read links, research vulnerabilities, or fetch discussions from external platforms (Twitter/X, Reddit, YouTube transcripts, GitHub, LinkedIn, Bilibili, login-walled web):
+- Use `agent-reach` CLI to fetch clean, structured JSON data without API fees:
+  - `agent-reach channels` — check available channels and actions
+  - `agent-reach <channel> <action> [args]` — query specific platforms (e.g. `agent-reach github search "CVE query"`)
+  - `agent-reach read <url>` — automatically parse and read any supported link
+- Pair with REA when conducting vulnerability research or inspecting external documentation.
+- Maintain strict read-only discipline: never post, comment, or ask for user passwords.

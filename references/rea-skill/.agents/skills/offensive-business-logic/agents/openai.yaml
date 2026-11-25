@@ -1,0 +1,3 @@
+interface:
+  display_name: "Business Logic Flaw Assessment"
+  short_description: "State machine integrity, negative quantity/price checks & workflow audit"

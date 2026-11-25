@@ -1,0 +1,3 @@
+interface:
+  display_name: "Open Redirect & URL Validation"
+  short_description: "Redirect target allowlisting, OAuth callback safety & parser tricks"

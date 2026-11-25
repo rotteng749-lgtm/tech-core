@@ -1,0 +1,3 @@
+interface:
+  display_name: "XSS Injection Payloads"
+  short_description: "Cross-Site Scripting payload library covering reflected, stored, DOM, and filter bypasses."

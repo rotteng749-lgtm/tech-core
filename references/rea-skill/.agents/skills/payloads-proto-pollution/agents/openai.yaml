@@ -1,0 +1,3 @@
+interface:
+  display_name: "Prototype Pollution Payloads"
+  short_description: "JavaScript prototype pollution payloads for server-side and client-side exploitation."

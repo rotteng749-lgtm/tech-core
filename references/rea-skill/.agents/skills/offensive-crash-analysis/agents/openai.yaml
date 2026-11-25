@@ -1,0 +1,3 @@
+interface:
+  display_name: "Crash Dump Triage & Root-Cause Analysis"
+  short_description: "WinDbg/GDB crash triage, ASan/MSan/UBSan reports & bug severity classification"

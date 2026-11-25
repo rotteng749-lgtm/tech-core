@@ -1,0 +1,3 @@
+interface:
+  display_name: "Container Isolation & Runtime Hardening"
+  short_description: "Privileged flag audit, Linux capabilities, seccomp/AppArmor & user namespaces"

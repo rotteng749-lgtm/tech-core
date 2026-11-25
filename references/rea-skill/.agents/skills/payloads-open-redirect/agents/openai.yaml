@@ -1,0 +1,3 @@
+interface:
+  display_name: "Open Redirect Payloads"
+  short_description: "Open redirect bypass payloads for OAuth token theft, phishing, and URL validation bypass."

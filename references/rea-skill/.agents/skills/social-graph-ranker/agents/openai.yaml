@@ -1,0 +1,2 @@
+display_name: "Social Graph Ranker"
+short_description: "Weighted social-graph ranking for warm intro discovery, bridge scoring, and network gap analysis across X and LinkedIn. Use when the user wants the reusable graph-ranking engine itself, not the broader outreach or network-maintenance workflow layered on top of it."

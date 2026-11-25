@@ -1,0 +1,3 @@
+interface:
+  display_name: "Account Takeover Payloads"
+  short_description: "Account takeover payloads and methodology for password reset abuse, session fixation, and more."

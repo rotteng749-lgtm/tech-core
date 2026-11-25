@@ -1,0 +1,2 @@
+display_name: "Laravel Plugin Discovery"
+short_description: "Discover and evaluate Laravel packages via LaraPlugins.io MCP. Use when the user wants to find plugins, check package health, or assess Laravel/PHP compatibility."

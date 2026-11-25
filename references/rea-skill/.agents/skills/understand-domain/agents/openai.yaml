@@ -1,0 +1,3 @@
+﻿interface:
+  display_name: "Understand Domain"
+  short_description: "Extract business domain flows and process steps from codebase"
